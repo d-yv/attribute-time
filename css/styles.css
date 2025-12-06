@@ -57,6 +57,7 @@ address {
 
 .hero-container {
     display: flex;
+    gap: 125px;
     width: 1920px;
     height: 771px;
     padding: 103px 138px 69px 194px;
@@ -68,12 +69,39 @@ address {
     background-color: red;
 }
 
-.hero-container-left{
+.hero-container-left {
     width: 524px;
     height: 445px;}
 
-.hero-container-right{
+.hero-container-right {
     width: 938px;
     height: 583px;
 
+}
+
+.hero-title {
+    font-weight: 500;
+    font-size: 66px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.hero-description {
+    font-weight: 500;
+    font-size: 26px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.hero-button {
+    border-radius: 12px;
+    width: 301px;
+    height: 64px;
+    background-color: #606b5b;
+
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
 }
