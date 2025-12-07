@@ -36,6 +36,9 @@ button {
 address {
     font-style: normal;
 } */
+body {
+    font-family: "Klein", sans-serif;
+}
 
 .visually-hidden {
     position: absolute;
@@ -50,11 +53,10 @@ address {
     overflow: hidden;
 }
 
-.container {
+/* .container {
     max-width: 1952px;
-    /* padding: 0 16px; */
     margin: 0 auto;
-}
+} */
 
 .hero-container {
     display: flex;
@@ -273,6 +275,53 @@ address {
     border-radius: 12px;
     border: none;
     width: 301px;
+    height: 64px;
+    background-color: #606b5b;
+
+    font-family: "Klein", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.helper-container {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 26px;
+    width: 1576px;
+    height: 554px;
+    padding-left: 92px;
+    background-color: #000;
+}
+
+.helper-container-left {
+    padding-top: 82px;
+    padding-bottom: 91px;
+    width: 549px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.helper-title {
+    font-weight: 500;
+    font-size: 42px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.helper-container-right {
+    width: 992px;
+    height: 554px;
+    background-image: url(../images/help-watch.png);
+    overflow: hidden;
+}
+
+.helper-button {
+    border-radius: 12px;
+    width: 397px;
     height: 64px;
     background-color: #606b5b;
 
