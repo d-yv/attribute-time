@@ -205,3 +205,78 @@ address {
     width: 516px;
     height: 342px;
 }
+
+.advantage-container {
+    width: 1576px;
+    height: 765px;
+    
+}
+
+.advantage-title {
+    font-weight: 500;
+    font-size: 42px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #2a2c33;
+    margin: 0 auto;
+}
+
+.advantage-title-mark {
+    color: #606b5b;
+}
+
+.advantage-description {
+    width: 1431px;
+    height: 260px;
+    display: flex;
+    gap: 21px;
+}
+
+.advantage-description-list {
+    width: 342px;
+    height: 239px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    align-items: center;
+}
+
+.advantage-logo {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid #e6e6e6;
+    align-items: center;
+    justify-content: center;
+}
+
+.advantage-list-title {
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #2a2c33;
+}
+
+.advantage-list-text {
+    font-weight: 350;
+    font-size: 16px;
+    text-align: center;
+    color: #2a2c33;
+}
+
+.advantage-button {
+    border-radius: 12px;
+    border: none;
+    width: 301px;
+    height: 64px;
+    background-color: #606b5b;
+
+    font-family: "Klein", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
